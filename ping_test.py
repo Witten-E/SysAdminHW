@@ -57,19 +57,19 @@ def main():
     while false:
         print_options()
         choice = input('Enter number of choice: ')
-        if choice == 1:
+        if choice == '1':
             os.system('clear')
             print("Your gateway :" + default_gateway())
-        elif choice == 2:
+        elif choice == '2':
             os.system('clear')
             print(ping_local())
-        elif choice == 3:
+        elif choice == '3':
             os.system('clear')
             print(ping_command("129.21.3.17"))
-        elif choice == 4:
+        elif choice == '4':
             os.system('clear')
             print(DNS_resolution())
-        elif choice == 5:
+        elif choice == '5':
             os.system('clear')
             print("Goodbye!")
             true = False
